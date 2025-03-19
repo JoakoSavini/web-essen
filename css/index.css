@@ -1,8 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* evita el scroll horizontal */
+    width: 100%;
+}
+
+
+
 .whatsapp-fixed {
     position: fixed;
     bottom: 20px;
     left: 20px;
     z-index: 999;
+}
+
+.image-logo {
+    width: 100px;
+}
+
+.carousel-image {
+    width: 100px;         /* ancho fijo */
+    height: 100px;        /* mismo alto */
+    border-radius: 50%;   /* redondeo completo */
+    object-fit: cover;    /* recorta proporcionalmente */
+    display: block;       /* evita espacios */
+    margin: 0 auto;       /* centra si querés */
 }
 
 .footer-logo {
@@ -21,23 +49,23 @@
     margin: 0 5px;
 }
 
-.bg-footer{
+.bg-footer {
     background-color: #d6d4d4;
 }
 
-.icono-ig{
+.icono-ig {
     color: rgb(211, 26, 195);
 }
-.icono-wp{
+
+.icono-wp {
     color: rgb(24, 224, 17);
 }
 
-.test{
+.test {
     height: 60px;
     width: 100%;
 }
 
-.test-combos{
-    height: 500px;
-    width: 100%;
+.test-combos {
+    object-fit: cover;
 }
